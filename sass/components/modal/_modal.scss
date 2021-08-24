@@ -53,7 +53,7 @@
 
   &:hover,
   &:focus {
-    color: var(--accent-text-color);
+    color: $accent-text-color;
     outline: none;
   }
 }

@@ -595,7 +595,7 @@ p {
 }
 
 .modal__btn:hover, .modal__btn:focus {
-  color: var(--accent-text-color);
+  color: #2196f3;
   outline: none;
 }
 
