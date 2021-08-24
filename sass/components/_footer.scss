@@ -1,0 +1,82 @@
+/* футер  */
+.footer {
+  background-color: $background-dark-grey;
+  color: $accent-white-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.adress__box {
+  width: 231px;
+}
+.logo--footer {
+  color: $accent-white-color;
+  margin-bottom: 20px;
+}
+.address {
+  font-style: normal;
+}
+.contacts__link--footer {
+  margin-top: 9px;
+
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: $blurred-white;
+}
+.footer__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $accent-white-color;
+
+  margin-bottom: 20px;
+}
+.social-list--footer {
+  justify-content: start;
+}
+.social-list__link--footer {
+  background-color: $very-blured-white;
+  color: $accent-white-color;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-text-color;
+    outline: none;
+  }
+}
+
+.container__footer {
+  display: flex;
+  align-items: baseline;
+}
+.join_us-box {
+  margin-left: 70px;
+}
+.mailing__box {
+  margin-left: 93px;
+}
+
+.mailing__input-mail {
+  display: inline-block;
+  min-width: 354px;
+  font-size: 16px;
+  font-weight: 1.25;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  padding: 15px 16px;
+  margin-right: 12px;
+  color: $accent-white-color;
+  background-color: $background-dark-grey;
+}
+
+.mailing__btn--box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mailing__icon {
+  margin-left: 10px;
+}
