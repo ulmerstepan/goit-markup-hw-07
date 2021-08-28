@@ -10,23 +10,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/portfolio.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 
 </head>
 <body>
 
 
     <header class="header">
-        <div class="container container--header">
-            <nav class="site-nav__box">
-                <a href="./index.html" class="logo link"><span class="logo__text">Web</span>Studio</a>
-                <ul class="site-nav list">
-                    <li class="site-nav__item"><a href="./index.html" class="site-nav__link link">Студия</a></li>
-                    <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link link site-nav__link--curent">Портфолио</a></li>
-                    <li class="site-nav__item"><a href="#" class="site-nav__link link">Контакты</a></li>
+        <div class="container header__container">
+            <nav class="nav">
+                <a href="./index.html" class="logo"><span class="logo__text">Web</span>Studio</a>
+                <ul class="site-nav">
+                    <li class="site-nav__item"><a href="./index.html" class="site-nav__link">Студия</a></li>
+                    <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link site-nav__link--curent">Портфолио</a></li>
+                    <li class="site-nav__item"><a href="#" class="site-nav__link">Контакты</a></li>
                 </ul>
             </nav>
-            <ul class="contacts list">
+            <ul class="contacts">
                 <li class="contacts__item"><a href="mailto:info@devstudio.com" class="link contacts__link">
                         <svg class="contact__icon" width=16 height=12>
                             <use href="./images/symbol-defs.svg#mail"></use>
@@ -43,11 +43,11 @@
     </header>
 
     <main>
-        <!-- <h1>Портфолио</h1> -->
-
+        
         <section class="portfolio-section section">
             <div class="container portfolio-container">
-            <ul class="portfolio-btn-list list">
+            <h1 class="hidden-title">Портфолио</h1>
+            <ul class="portfolio-btn-list">
                 <li class="portfolio-btn-list__item"><button type="button" class="portfolio-btn-list__btn button">Все</button></li>
                 <li class="portfolio-btn-list__item"><button type="button" class="portfolio-btn-list__btn button">Веб-сайты</button></li>
                 <li class="portfolio-btn-list__item"><button type="button" class="portfolio-btn-list__btn button">Приложения</button></li>
@@ -56,9 +56,9 @@
             </ul>
 
 
-            <ul class="portfolio-list list">
+            <ul class="portfolio-list">
                 <li class="portfolio-list__item">
-                    <a href="#" class="portfolio-list__link link">
+                    <a href="#" class="portfolio-list__link">
                         <div class="portfolio-list__img-box">
                         <img class="portfolio-list__img" src="./images/portfolio/technocrack.jpg" width="370" height="294" 
                         alt="Изображение сайта Технокряк">
@@ -68,13 +68,13 @@
                         </p>
                         </div>
                         <div class="portfolio-list__description-box">
-                            <h2 class="portfolio-list__title title">Технокряк</h2>
+                            <h2 class="portfolio-list__title">Технокряк</h2>
                             <p class="portfolio-list__description">Веб-сайт</p>
                         </div>
                     </a>
                 </li>
                 <li class="portfolio-list__item">
-                    <a href="#" class="portfolio-list__link link">
+                    <a href="#" class="portfolio-list__link">
                         <div class="portfolio-list__img-box">
                         <img class="portfolio-list__img" src="./images/portfolio/new_orlean.jpg" width="370" height="294"
                             alt="Изображение постера New Orlean vs Golden Star">
@@ -85,13 +85,13 @@
                         </div>
 
                         <div class="portfolio-list__description-box">
-                            <h2 class="portfolio-list__title title">Постер New Orlean vs Golden Star</h2>
+                            <h2 class="portfolio-list__title">Постер New Orlean vs Golden Star</h2>
                             <p class="portfolio-list__description">Дизайн</p>
                         </div>
                     </a>
                 </li>
                 <li class="portfolio-list__item">
-                    <a href="#" class="portfolio-list__link link">
+                    <a href="#" class="portfolio-list__link">
                         <div class="portfolio-list__img-box">
                         <img class="portfolio-list__img" src="./images/portfolio/seafood.jpg" width="370" height="294"
                             alt="Изображение логотипа ресторана Seafood">
@@ -102,13 +102,13 @@
                         </div>
 
                         <div class="portfolio-list__description-box">
-                            <h2 class="portfolio-list__title title">Ресторан Seafood</h2>
+                            <h2 class="portfolio-list__title">Ресторан Seafood</h2>
                             <p class="portfolio-list__description">Приложение</p>
                         </div>
                     </a>
                 </li>
                 <li class="portfolio-list__item">
-                    <a href="#" class="portfolio-list__link link">
+                    <a href="#" class="portfolio-list__link">
                         <div class="portfolio-list__img-box">
                         <img class="portfolio-list__img" src="./images/portfolio/prime.jpg" width="370" height="294"
                             alt="Изображение наушников Prime">
@@ -119,13 +119,13 @@
                         </div>
 
                         <div class="portfolio-list__description-box">
-                            <h2 class="portfolio-list__title title">Проект Prime</h2>
+                            <h2 class="portfolio-list__title">Проект Prime</h2>
                             <p class="portfolio-list__description">Маркетинг</p>
                         </div>
                     </a>
                 </li>
                 <li class="portfolio-list__item">
-                    <a href="#" class="portfolio-list__link link">
+                    <a href="#" class="portfolio-list__link">
                         <div class="portfolio-list__img-box">
                         <img class="portfolio-list__img" src="./images/portfolio/boxes.jpg" width="370" height="294"
                             alt="Изображение коробочек Boxes">
@@ -136,13 +136,13 @@
                         </div>
 
                         <div class="portfolio-list__description-box">
-                            <h2 class="portfolio-list__title title">Проект Boxes</h2>
+                            <h2 class="portfolio-list__title">Проект Boxes</h2>
                             <p class="portfolio-list__description">Приложение</p>
                         </div>
                     </a>
                 </li>
                 <li class="portfolio-list__item">
-                    <a href="#" class="portfolio-list__link link">
+                    <a href="#" class="portfolio-list__link">
                         <div class="portfolio-list__img-box">
                         <img class="portfolio-list__img" src="./images/portfolio/inspiratoin.jpg" width="370" height="294"
                             alt="Изображение сайта Inspiration has no Borders">
@@ -153,13 +153,13 @@
                         </div>
 
                         <div class="portfolio-list__description-box">
-                            <h2 class="portfolio-list__title title">Inspiration has no Borders</h2>
+                            <h2 class="portfolio-list__title">Inspiration has no Borders</h2>
                             <p class="portfolio-list__description">Веб-сайт</p>
                         </div>
                     </a>
                 </li>
                 <li class="portfolio-list__item">
-                    <a href="#" class="portfolio-list__link link">
+                    <a href="#" class="portfolio-list__link">
                         <div class="portfolio-list__img-box">
                         <img class="portfolio-list__img" src="./images/portfolio/limited_edition.jpg" width="370" height="294"
                             alt="Изображение журнала издания Limited Edition">
@@ -170,13 +170,13 @@
                         </div>
 
                         <div class="portfolio-list__description-box">
-                            <h2 class="portfolio-list__title title">Издание Limited Edition</h2>
+                            <h2 class="portfolio-list__title">Издание Limited Edition</h2>
                             <p class="portfolio-list__description">Дизайн</p>
                         </div>
                     </a>
                 </li>
                 <li class="portfolio-list__item">
-                    <a href="#" class="portfolio-list__link link">
+                    <a href="#" class="portfolio-list__link">
                        
                         <div class="portfolio-list__img-box">
                         <img class="portfolio-list__img" src="./images/portfolio/lab.jpg" width="370" height="294" alt="Изображение этикетки LAB">
@@ -187,13 +187,13 @@
                         </div>
 
                         <div class="portfolio-list__description-box">
-                            <h2 class="portfolio-list__title title">Проект LAB</h2>
+                            <h2 class="portfolio-list__title">Проект LAB</h2>
                             <p class="portfolio-list__description">Маркетинг</p>
                         </div>
                     </a>
                 </li>
                 <li class="portfolio-list__item">
-                    <a href="#" class="portfolio-list__link link">
+                    <a href="#" class="portfolio-list__link">
                         <div class="portfolio-list__img-box">
                         <img class="portfolio-list__img" src="./images/portfolio/growing_business.jpg" width="370" height="294"
                             alt="Изображение приложения Growing Business">
@@ -203,7 +203,7 @@
                             </p>
                         </div>
                         <div class="portfolio-list__description-box">
-                            <h2 class="portfolio-list__title title">Growing Business</h2>
+                            <h2 class="portfolio-list__title">Growing Business</h2>
                             <p class="portfolio-list__description">Приложение</p>
                         </div>
                     </a>
@@ -219,24 +219,24 @@
         <div class="container container__footer">
             <div class="adress__box">
     
-                <a href="./index.html" class="link logo--footer logo"><span class="logo__text">Web</span>Studio</a>
+                <a href="./index.html" class="logo--footer logo"><span class="logo__text">Web</span>Studio</a>
                 <address class="address">
-                    <ul class="address__list list">
+                    <ul class="address__list">
                         <li>г. Киев, пр-т Леси Украинки, 26</li>
                         <li><a href="mailto:info@devstudio.com"
-                                class="link contacts__link--footer contacts__link">info@devstudio.com</a>
+                                class="contacts__link--footer contacts__link">info@devstudio.com</a>
                         </li>
-                        <li><a href="tel:+380961111111" class="link contacts__link--footer contacts__link">+38 096 111 11
+                        <li><a href="tel:+380961111111" class="contacts__link--footer contacts__link">+38 096 111 11
                                 11</a></li>
                     </ul>
                 </address>
             </div>
     
             <div class="join_us-box">
-                <h2 class="footer__title title">присоеденяйтесь</h2>
-                <ul class="social-list social-list--footer list">
+                <h2 class="footer__title">присоеденяйтесь</h2>
+                <ul class="social-list social-list--footer">
                     <li class="social-list__item">
-                        <a href="" class="social-list__link social-list__link--footer link">
+                        <a href="" class="social-list__link social-list__link--footer">
                             <svg class="social-list__icon" width=20 height="20">
                                 <use href="./images/symbol-defs.svg#instagram"></use>
                             </svg>
@@ -267,7 +267,7 @@
             </div>
     
             <div class="mailing__box">
-                <h2 class="footer__title title">Подпишитесь на рассылку</h2>
+                <h2 class="footer__title">Подпишитесь на рассылку</h2>
                 <form class="mailing">
     
                     <input class="mailing__input-mail" type="email" name="user-email" placeholder="E-mail"
